@@ -138,13 +138,7 @@ get_configuration() {
         print_error "IPv4 address cannot be empty"
         exit 1
     fi
-    
-    # DNS Servers (with default)
-    echo ""
-    print_info "Enter DNS servers (default: 1.1.1.1,1.0.0.1)"
-    read -p "DNS Servers: " DNS_SERVERS
-    DNS_SERVERS=${DNS_SERVERS:-1.1.1.1,1.0.0.1}
-    
+ 
     # MTU (with default)
     echo ""
     print_info "Enter MTU value (default: 1380)"
@@ -208,7 +202,6 @@ create_config() {
 [Interface]
 PrivateKey = ${PRIVATE_KEY}
 ${ADDRESS_LINE}
-DNS = ${DNS_SERVERS}
 MTU = ${MTU}
 
 [Peer]
