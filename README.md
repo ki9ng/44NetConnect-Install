@@ -27,13 +27,13 @@ Automated installation script for connecting to ARDC's 44Net (Amateur Radio Digi
 Run this single command to install and configure 44Net Connect:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/44net-connect-installer/main/install-44net.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/ki9ng/44net-connect-installer/main/install-44net.sh | sudo bash
 ```
 
 Alternatively, download and run manually:
 
 ```bash
-wget https://raw.githubusercontent.com/YOUR_USERNAME/44net-connect-installer/main/install-44net.sh
+wget https://raw.githubusercontent.com/ki9ng/44net-connect-installer/main/install-44net.sh
 chmod +x install-44net.sh
 sudo ./install-44net.sh
 ```
