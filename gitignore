@@ -1,0 +1,28 @@
+# WireGuard configuration files (contain private keys)
+*.conf
+wg0.conf
+
+# Backup files
+*.backup.*
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
